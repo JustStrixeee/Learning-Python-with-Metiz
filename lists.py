@@ -57,5 +57,7 @@ print(motorcycles)
 
 """Удаление элем. при помощи pop()"""
 
-
+popped_motorcycles = motorcycles.pop()
+print(popped_motorcycles)
+print(motorcycles)
 
