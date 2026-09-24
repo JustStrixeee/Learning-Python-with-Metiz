@@ -81,3 +81,11 @@ for index, value in enumerate(nums):
 #
 #                     # Возвращаем результат в виде списка индексов
 #                     return [index, real_index2]
+
+print(f"*" * 80)
+
+sessions = [101, 102, 103, 104, 105]
+sessions.pop(0)
+sessions.remove(104)
+sessions.append(106)
+print(sessions)
